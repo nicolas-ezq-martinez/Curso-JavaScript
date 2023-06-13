@@ -1,20 +1,28 @@
 body {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-#carta {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #menu {
-    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#contenedor-total {
+    position: fixed;
+    top: 10;
+    right: 10;
+}
+
+.opcion {
+    height: 180px;
     width: 300px;
     border: 1px solid;
     border-radius: 5px;
-    display: none;
+    text-align: center;
+    margin: 10px;
 }
